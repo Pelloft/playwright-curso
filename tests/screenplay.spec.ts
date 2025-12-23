@@ -22,6 +22,7 @@ class Actor{
     setPage(page: Page){
         this.page = page;
     }
+}
 
 class OpenBrowser implements Task {
     private url: string;
